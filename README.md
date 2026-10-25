@@ -15,7 +15,7 @@ a MIDI trombone using basic components to play every note possible! It uses an E
 - A 0.96" OLED to show the note
 - Python code to bind the notes to keys ect.
 
-#Python
+# Python
 - code.py           | initializes the main controller
 - config.py         | Stores pin assignments
 - state.py          | Tracks the current note, flats and octave
@@ -26,6 +26,6 @@ a MIDI trombone using basic components to play every note possible! It uses an E
 # Schematic
 <img width="1249" height="625" alt="Screenshot 2026-10-25 201132" src="https://github.com/user-attachments/assets/7fab5999-c63c-4a93-a094-c6901aefe526" />
 
-#PCB
+# PCB
 <img width="1042" height="459" alt="Screenshot 2026-10-25 201138" src="https://github.com/user-attachments/assets/618f900f-7424-4c97-a60a-2c003fae6251" />
 
