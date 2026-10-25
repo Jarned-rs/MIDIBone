@@ -9,8 +9,8 @@ OCTAVE_MAX = 1
 VELOCITY = 100
 
 #press and release ratios (untested)
-PRESS_RATIO = 0.25
-RELEASE_RATIO = 0.1
+PRESS_RATIO = 0.1
+RELEASE_RATIO = 0.05
 
 #defining the keys from the board
 MIDI_KEYS_PINS = (
@@ -24,15 +24,15 @@ MIDI_KEYS_PINS = (
 ) 
 
 KEYS_PINS = (
-    board.GP01,
-    board.GP02,
-    board.GP03,
-    board.GP04,
+    board.GP1,
+    board.GP2,
+    board.GP3,
+    board.GP4,
 )
 
 #display definition
-I2C_SDA = board.GP06
-I2C_SCL = board.GP05
+I2C_SDA = board.GP6
+I2C_SCL = board.GP5
 
 #adding the MIDI and the KEYS
 PADS = MIDI_KEYS_PINS + KEYS_PINS
